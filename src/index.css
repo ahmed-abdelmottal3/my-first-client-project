@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@custom-variant hover (&:hover);
+@custom-variant dark (&:where(.dark, .dark *));
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+*{
+  outline : none;
+}
+body {
+  background: var(--bg-color)
+    url("https://www.transparenttextures.com/patterns/cubes.png");
+  background-repeat: repeat;
+  color: var(--text-color);
+  transition: background 0.5s, color 0.5s;
+  @apply dark:bg-black;
+}
+p {
+  @apply dark:text-[#c5c5c5];
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 11ch;
+  }
+}
+h2 {
+  @apply dark:text-[#c5c5c5] transition-all duration-700;
+  
+}
+.contact{
+  @apply dark:bg-[#2c2c2c] transition-all duration-700;
+
+}
+.exp{
+  @apply dark:bg-[#2c2c2c] transition-all duration-700;
+}
+
+.seq{
+  @apply dark:text-[#c5c5c5] transition-all duration-700;
+}
+
+img {
+  transition: all 0.7s ease-in-out;
+}
