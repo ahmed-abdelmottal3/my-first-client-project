@@ -1,29 +1,29 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import rest from "../assets/cover.png";
-import elec from "../assets/cover2.jpg";
-import teach from "../assets/cover3.png";
+import rest from "../assets/cover.webp";
+import elec from "../assets/cover2.webp";
+import teach from "../assets/cover3.webp";
 
-import brg1 from "../assets/2.png";
-import brg2 from "../assets/5.png";
-import brg4 from "../assets/45.png";
+import brg1 from "../assets/2.webp";
+import brg2 from "../assets/5.webp";
+import brg4 from "../assets/45.webp";
 
-import elec1 from "../assets/1.png";
-import elec2 from "../assets/4.png";
-import elec3 from "../assets/8.png";
-import elec4 from "../assets/15.png";
-import elec5 from "../assets/16.png";
-import elec6 from "../assets/26.png";
-import elec7 from "../assets/28.png";
-import elec8 from "../assets/33.png";
-import elec9 from "../assets/35.png";
-import elec10 from "../assets/36.png";
-import elec11 from "../assets/37.png";
+import elec1 from "../assets/1.webp";
+import elec2 from "../assets/4.webp";
+import elec3 from "../assets/8.webp";
+import elec4 from "../assets/15.webp";
+import elec5 from "../assets/16.webp";
+import elec6 from "../assets/26.webp";
+import elec7 from "../assets/28.webp";
+import elec8 from "../assets/33.webp";
+import elec9 from "../assets/35.webp";
+import elec10 from "../assets/36.webp";
+import elec11 from "../assets/37.webp";
 
-import edu1 from "../assets/edu1.jpg";
-import edu2 from "../assets/edu2.png";
-import edu3 from "../assets/edu3.jpg";
-import edu4 from "../assets/edu4.jpg";
+import edu1 from "../assets/edu1.webp";
+import edu2 from "../assets/edu2.webp";
+import edu3 from "../assets/edu3.webp";
+import edu4 from "../assets/edu4.webp";
 
 const projectsData = [
   {

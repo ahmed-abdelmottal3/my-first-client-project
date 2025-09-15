@@ -26,7 +26,7 @@ export default function Contact({ darkMode }) {
 
   return (
     <section
-      className={`contact relative w-[85%] sm:w-[75%] max-w-7xl mx-auto mt-10 py-8 rounded-4xl overflow-hidden 
+      className={`contact relative w-[85%] sm:w-[75%] max-w-7xl mx-auto my-10 py-8 rounded-4xl overflow-hidden 
         bg-blue-50
       `}
     >

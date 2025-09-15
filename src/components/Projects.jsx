@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import rest from "../assets/cover.png";
-import elec from "../assets/cover2.jpg";
-import teach from "../assets/cover3.png";
+import rest from "../assets/cover.webp";
+import elec from "../assets/cover2.webp";
+import teach from "../assets/cover3.webp";
 
 export default function Projects() {
   const projectsData = [
