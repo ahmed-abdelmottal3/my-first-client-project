@@ -6,6 +6,7 @@ import teach from "../assets/cover3.webp";
 
 import brg1 from "../assets/2.webp";
 import brg2 from "../assets/5.webp";
+import brg3 from "../assets/6.webp";
 import brg4 from "../assets/45.webp";
 
 import elec1 from "../assets/1.webp";
@@ -33,7 +34,7 @@ const projectsData = [
       "A collection of eye-catching restaurant advertisement designs.",
     image: rest,
     link: "https://www.behance.net/gallery/225373717/Restaurant-ads-Social-Media",
-    subimg: [brg1, brg2, brg4],
+    subimg: [brg1, brg2,brg3, brg4],
   },
   {
     id: 2,
@@ -90,15 +91,15 @@ export default function Projects_details() {
     {project.title}
   </h1>
 
-  <div className="flex flex-col items-center justify-center">
+  <div className="flex flex-col items-center justify-center rounded-4xl">
     {/* Left: Main Image */}
-    <div className="flex flex-col items-center w-full">
-      <div className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] flex justify-center items-center rounded-2xl overflow-hidden">
+    <div className="flex flex-col items-center w-fit rounded-2xl">
+      <div className="w-fit h-64 sm:h-80 md:h-96 lg:h-[500px]  flex justify-center items-center rounded-4xl overflow-hidden">
         <img
           key={img}
           src={img}
           alt={project.title}
-          className={`w-full max-h-full object-contain transition-opacity rounded-2xl duration-500 ease-in-out ${
+          className={`w-full max-h-full object-contain transition-opacity rounded-4xl duration-500 ease-in-out ${
             fade ? "opacity-100" : "opacity-0"
           }`}
         />
@@ -111,7 +112,7 @@ export default function Projects_details() {
             key={i}
             onMouseOver={() => changeImage(imgsrc || project.image)}
             onMouseLeave={() => changeImage(project.image)}
-            className={`flex-shrink-0 cursor-pointer rounded-xl overflow-hidden border-2 transition-all duration-300 ${
+            className={`flex-shrink-0 cursor-pointer rounded-xl overflow-hidden border-2 transition-all duration-500 ${
               img === imgsrc ? "border-blue-600" : "border-transparent"
             }`}
           >
